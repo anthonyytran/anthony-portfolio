@@ -6,18 +6,17 @@
   top: 0;
   z-index: 3;
   min-height: 500px;
+}
 
-  .logo {
-    display: block;
-    padding: 8px 0;
+.nav-bar .logo {
+  display: block;
+  padding: 8px 0;
+}
 
-    img {
-      display: block;
-      margin: 8px auto;
-      width: 80px;
-    }
-
-  }
+.nav-bar .logo img {
+  display: block;
+  margin: 8px auto;
+  width: 80px;
 }
 
 nav {
@@ -28,66 +27,67 @@ nav {
   top: 50%;
   margin-top: -120px;
   width: 100%;
-
-  a {
-    font-size: 22px;
-    color: #4d4d4e;
-    display: block;
-    line-height: 60px;
-    height: 60px;
-    position: relative;
-    text-decoration: none;
-
-    i {
-      transition: all 0.3s ease-out;
-    }
-
-    &:hover {
-      color: #5065A8;
-
-      svg {
-        opacity: 0;
-      }
-
-      &:after {
-        opacity: 1;
-      }
-    }
-
-    &:after {
-      content: '';
-      font-size: 9px;
-      letter-spacing: 2px;
-      position: absolute;
-      bottom: 0;
-      display: block;
-      width: 100%;
-      text-align: center;
-      opacity: 0;
-      transition: all 0.3s ease-out;
-    }
-  }
-
-  a:first-child:after {
-    content: 'HOME';
-  }
-
-  a.about-link:after {
-    content: 'ABOUT';
-  }
-
-  a.contact-link:after {
-    content: 'CONTACT';
-  }
-
-  a.portfolio-link:after {
-    content: 'PORTFOLIO';
-  }
-
-  a.active svg {
-    color: #5065A8;
-  }
 }
+
+nav a {
+  font-size: 22px;
+  color: #4d4d4e;
+  display: block;
+  line-height: 60px;
+  height: 60px;
+  position: relative;
+  text-decoration: none;
+}
+
+nav a i {
+  transition: all 0.3s ease-out;
+}
+
+nav a:hover {
+  color: #5065A8;
+}
+
+nav a:hover svg {
+  opacity: 0;
+}
+
+nav a:hover::after {
+  opacity: 1;
+}
+
+nav a::after {
+  content: '';
+  font-size: 9px;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+
+nav a:first-child::after {
+  content: 'HOME';
+}
+
+nav a.about-link::after {
+  content: 'ABOUT';
+}
+
+nav a.contact-link::after {
+  content: 'CONTACT';
+}
+
+nav a.portfolio-link::after {
+  content: 'PORTFOLIO';
+}
+
+nav a.active svg {
+  color: #5065A8;
+}
+
 
 
 
