@@ -30,7 +30,6 @@ const Navbar = () => (
         <a target="_blank" rel='noreferrer' href="https://github.com/anthonyytran">
           <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
         </a>
-
       </li>
     </ul>
   </div>
