@@ -9,7 +9,7 @@ const Layout = () => {
       <div className='page'>
         <span className='tags top-tags'>&lt;body&gt;</span>
 
-        <Outlet /> {/* Use the Outlet component from React Router for rendering nested routes */}
+        <Outlet />
 
         <span className='tags bottom-tags'>
           &lt;/body&gt;
