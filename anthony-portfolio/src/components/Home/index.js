@@ -1,17 +1,31 @@
-import React from 'react';
 import LogoA from '../../assets/images/A-logos_white.png';
 import { Link } from 'react-router-dom';
 import './index.scss';
+import AnimatedLetters from '../AnimatedLetters';
+import React, { useState } from 'react';
 
 const Home = () => {
+    const [letterClass, setLetterClass] = useState('text-animate')
+    const nameArray = ['n', 't', 'h', 'o', 'n', 'y']
+    const jobArray = ['A', 's', 'p', 'i', 'r', 'i', 'n', 'g',' ', 'S','o','f','t','w','a','r','e', ' ', 'E','n','g','i','n','e','e','r']
+
     return (
         <div className="container home-page">
             <div className="text-zone">
-                <h1>Hi, <br /> I'm
-                <img src={LogoA} alt="developer" />
-                nthony,
+                <h1>
+                <span className={letterClass}>H</span>
+                <span className={'${letterClass} _12'}>i,</span>
                 <br />
-                Aspiring Software Engineer.
+                <span className={'${letterClass} _13'}>I</span>
+                <span className={'${letterClass} _14'}>'m</span>
+                <img src={LogoA} alt="developer" />
+                <AnimatedLetters letterClass={letterClass}
+                strArray={nameArray}
+                idx={15}/>
+                <br />
+                <AnimatedLetters letterClass={letterClass}
+                strArray={jobArray}
+                idx={22}/>
                 </h1>
                 <h2>Frontend Developer / Student / Gamer</h2>
                 <Link to ="/contact" className='flat-button'>CONTACT ME</Link>
