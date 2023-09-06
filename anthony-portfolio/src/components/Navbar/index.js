@@ -3,12 +3,12 @@ import { Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faInfoCircle, faEnvelope,} from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
-import Logo from '../../assets/images/Anthony-logos_transparent.png';
+import AnthonyLogo from '../../assets/images/Anthony-logos_transparent.png';
 
 const Navbar = () => (
   <div className='nav-bar'>
     <Link className='logo' to='/'>
-      <img src={Logo} alt="Logo" />
+      <img src={AnthonyLogo} alt="Logo" />
     </Link>
     <nav>
       <NavLink exact={true} activeClassName="active" to="/">
