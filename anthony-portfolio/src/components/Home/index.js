@@ -33,7 +33,6 @@ const Home = () => {
                 <h2>Frontend Developer / Student / Gamer</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
-            <AnimatedLogo />
         </div>
     );
 }
