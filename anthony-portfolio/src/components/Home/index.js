@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom';
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import React, { useState, useEffect } from 'react';
+import AnimatedLogo from './AnimatedLogo'
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
-    const nameArray = ['n', 't', 'h', 'o', 'n', 'y'];
-    const jobArray = ['A', 's', 'p', 'i', 'r', 'i', 'n', 'g',' ', 'S','o','f','t','w','a','r','e', ' ', 'E','n','g','i','n','e','e','r'];
+    const nameArray = ['n', 't', 'h', 'o', 'n', 'y', ','];
+    const jobArray = ['A', 'n', ' ', 'A', 's', 'p', 'i', 'r', 'i', 'n', 'g',' ', 'S','o','f','t','w','a','r','e', ' ', 'E','n','g','i','n','e','e','r'];
 
     useEffect(() => {
         setTimeout(() => {
@@ -32,6 +33,7 @@ const Home = () => {
                 <h2>Frontend Developer / Student / Gamer</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
+            <AnimatedLogo />
         </div>
     );
 }
