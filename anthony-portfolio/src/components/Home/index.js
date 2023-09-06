@@ -11,9 +11,10 @@ const Home = () => {
                 <img src={LogoA} alt="developer" />
                 nthony,
                 <br />
-                An aspiring Software Engineer.
+                Aspiring Software Engineer.
                 </h1>
-                <h2>Frontend Developer / Student / Human</h2>
+                <h2>Frontend Developer / Student / Gamer</h2>
+                <Link to ="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
         </div>
     );
