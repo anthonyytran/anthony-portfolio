@@ -13,7 +13,7 @@ const Home = () => {
                 <br />
                 An aspiring Software Engineer.
                 </h1>
-                <h2>Frontend Developer / Javascript Expert / Youtuber</h2>
+                <h2>Frontend Developer / Student / Human</h2>
             </div>
         </div>
     );
