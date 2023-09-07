@@ -12,10 +12,6 @@ const Layout = () => {
 
         <Outlet />
 
-        <span className='tags middle-tags1'>&lt;img&gt;</span>
-        <img className="homeImage" src={HomeImage} alt="home" />
-        <span className='tags middle-tags2'>&lt;/img&gt;</span>
-
         <span className='tags bottom-tags'>
           &lt;/body&gt;
           <br />
