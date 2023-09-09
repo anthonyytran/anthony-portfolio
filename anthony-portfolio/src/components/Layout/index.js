@@ -1,7 +1,6 @@
 import './index.scss';
 import Navbar from '../Navbar';
 import { Outlet } from 'react-router-dom';
-import HomeImage from '../../assets/images/Home.jpg';
 
 const Layout = () => {
   return (
