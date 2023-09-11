@@ -1,0 +1,11 @@
+{
+    "projects": [
+        {
+            "cover": "/projects/projects1/stock.jpeg",
+            "title": "Project1",
+            "description": "Languages used",
+            "url": "https://www.google.com"
+        }
+    ]
+
+}

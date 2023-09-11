@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import Loader from 'react-loaders'
+import './index.scss';
+import projectData from '../../data/projects.json';
 
 const Projects = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
+  console.log(projectData);
 
   useEffect(() => {
     setTimeout(() => {
@@ -14,8 +17,7 @@ const Projects = () => {
   return (
     <>
     <div className="container projects-page">
-      <div className="text-zone">
-        <h1>
+        <h1 className = "page-title">
           <AnimatedLetters
             letterClass={letterClass}
             strArray={['P', 'r', 'o', 'j', 'e', 'c', 't', 's']}
@@ -23,8 +25,8 @@ const Projects = () => {
             className={letterClass}
           />
         </h1>
+        {/* <div> {renderProjects()} </div> */}
       </div>
-    </div>
     <Loader type="pacman" />
     </>
   )
