@@ -4,24 +4,6 @@
             "cover": "/projects/projects1/stock.jpeg",
             "title": "Project1",
             "description": "Languages used",
-            "url": "https://www.bing.com"
-        },
-        {
-            "cover": "/projects/projects1/stock.jpeg",
-            "title": "Project2",
-            "description": "Languages used",
-            "url": "https://www.google.com"
-        },
-        {
-            "cover": "/projects/projects1/stock.jpeg",
-            "title": "Project3",
-            "description": "Languages used",
-            "url": "https://www.google.com"
-        },
-        {
-            "cover": "/projects/projects1/stock.jpeg",
-            "title": "Project4",
-            "description": "Languages used",
             "url": "https://www.google.com"
         }
     ]
