@@ -1,7 +1,7 @@
 import './index.scss';
 import { Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faInfoCircle, faEnvelope,} from '@fortawesome/free-solid-svg-icons';
+import { faHome, faInfoCircle, faEnvelope, faSuitcase,} from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 import AnthonyLogo from '../../assets/images/Anthony-logos_transparent.png';
 
@@ -16,6 +16,9 @@ const Navbar = () => (
       </NavLink>
       <NavLink exact={true} activeClassName="active" className="about-link" to="/about">
         <FontAwesomeIcon icon={faInfoCircle} color="#4d4d4e" />
+      </NavLink>
+      <NavLink exact={true} activeClassName="active" className="projects-link" to="/projects">
+        <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
       </NavLink>
       <NavLink exact={true} activeClassName="active" className="contact-link" to="/contact">
         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />

@@ -26,15 +26,20 @@ const About = () => {
                             className={letterClass}
                         />
                     </h1>
-                    <p> Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
-                        Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
-                        Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
+                    <p> Hello and welcome to my portfolio! My name is Anthony Tran, a passionate 
+                        and driven Software Engineer with an undisputed love for technology and 
+                        coding. Born and raised in Melbourne, Australia, I have been captivated 
+                        by technology and programming since a very young age with my first programming
+                        language being Scratch. Over the years, my love for technology has only grew
+                        and I'm looking to pursue a career within the software development field.
                     </p>
-                    <p> Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
-                        Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
-                        Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
+                    <p> Currently pursuing my Bachelor of Information Technology at RMIT University,
+                        I am dedicated to honing my software development skills in the hopes of 
+                        becoming a fully fledged Software Engineer! 
                     </p>
-                    <p> Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
+                    <p> I have built this website as a way to demonstrate my coding skills and to show 
+                        off personal projects that I have built over my career. 
+                    </p>
                 </div>
 
 
