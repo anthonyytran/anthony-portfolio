@@ -12,6 +12,7 @@ const Projects = () => {
   }, [])
 
   return (
+    <>
     <div className="container projects-page">
       <div className="text-zone">
         <h1>
@@ -23,9 +24,9 @@ const Projects = () => {
           />
         </h1>
       </div>
-      <Loader type="pacman" />
     </div>
+    <Loader type="pacman" />
+    </>
   )
 }
-
 export default Projects
