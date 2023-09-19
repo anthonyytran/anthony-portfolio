@@ -1,25 +1,13 @@
 {
     "projects": [
         {
-            "cover": "projects/projects1/stock.jpeg",
+            "cover": "projects/projects1/weather-app.png",
             "title": "Weather App",
             "description": "React",
             "url": "https://www.youtube.com/watch?v=qWNQUvIk954"
         },
         {
-            "cover": "projects/projects1/stock.jpeg",
-            "title": "WIP",
-            "description": "Languages used",
-            "url": "https://www.youtube.com/watch?v=qWNQUvIk954"
-        },
-        {
-            "cover": "projects/projects1/stock.jpeg",
-            "title": "WIP",
-            "description": "Languages used",
-            "url": "https://www.youtube.com/watch?v=qWNQUvIk954"
-        },
-        {
-            "cover": "projects/projects1/stock.jpeg",
+            "cover": "projects/projects2/stock.jpeg",
             "title": "WIP",
             "description": "Languages used",
             "url": "https://www.youtube.com/watch?v=qWNQUvIk954"
