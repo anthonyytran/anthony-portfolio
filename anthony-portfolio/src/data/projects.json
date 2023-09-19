@@ -3,14 +3,14 @@
         {
             "cover": "projects/projects1/weather-app.png",
             "title": "Weather App",
-            "description": "React",
-            "url": "https://www.youtube.com/watch?v=qWNQUvIk954"
+            "description": "Languages used: React",
+            "url": "https://anthonyytran.github.io/anthony-weather-app/"
         },
         {
             "cover": "projects/projects2/stock.jpeg",
-            "title": "WIP",
-            "description": "Languages used",
-            "url": "https://www.youtube.com/watch?v=qWNQUvIk954"
+            "title": "Best Project Ever",
+            "description": "Languages used: -",
+            "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         }
     ]
 
