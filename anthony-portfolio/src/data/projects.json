@@ -3,8 +3,14 @@
         {
             "cover": "projects/projects1/weather-app.png",
             "title": "Weather App",
-            "description": "Languages used: React",
+            "description": "JavaScript, React, APIs",
             "url": "https://anthonyytran.github.io/anthony-weather-app/"
+        },
+        {
+            "cover": "projects/projects2/chat.jpg",
+            "title": "React Chat",
+            "description": "HTML, CSS, JavaScript, React",
+            "url": "https://github.com/anthonyytran/react-chat-2"
         },
         {
             "cover": "projects/projects2/stock.jpeg",
@@ -12,6 +18,7 @@
             "description": "Languages used: -",
             "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         }
+        
     ]
 
 }
