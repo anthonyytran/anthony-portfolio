@@ -1,19 +1,19 @@
 {
     "projects": [
         {
-            "cover": "projects/projects1/weather-app.png",
+            "cover": "../projects/projects1/weather-app.png",
             "title": "Weather App",
             "description": "JavaScript, React, APIs",
             "url": "https://anthonyytran.github.io/anthony-weather-app/"
         },
         {
-            "cover": "projects/projects2/chat.jpg",
+            "cover": "../projects/projects2/chat.png",
             "title": "React Chat",
             "description": "HTML, CSS, JavaScript, React",
             "url": "https://github.com/anthonyytran/react-chat-2"
         },
         {
-            "cover": "projects/projects3/stock.jpeg",
+            "cover": "../projects/projects3/wow.jpg",
             "title": "Best Project Ever",
             "description": "It really is!",
             "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
