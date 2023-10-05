@@ -4,6 +4,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import emailjs from '@emailjs/browser';
 
+
+
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const refForm = useRef();
@@ -15,20 +17,20 @@ const Contact = () => {
     }, []);
 
     const sendEmail = (e) => {
-        e.preventDefault();
-
+        e.preventDefault()
+    
         emailjs
-            .sendForm('contact_service', 'template_ooj0f7e', refForm.current, 'nyp4J0soNSf0P_J8EyWhS')
-            .then(
-                () => {
-                    alert('Message successfully sent!');
-                    window.location.reload(false);
-                },
-                () => {
-                    alert('Failed to send the message, please try again!');
-                }
-            );
-    };
+          .sendForm('contact_service', 'contact_form', refForm.current, 'dLSkX7unlU8fSWDFm')
+          .then(
+            () => {
+              alert('Message successfully sent!')
+              window.location.reload(false)
+            },
+            () => {
+              alert('Failed to send the message, please try again')
+            }
+          )
+      }
 
     return (
         <>

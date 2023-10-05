@@ -74,7 +74,7 @@
       margin-left: 20px;
       opacity: 0.8;
     }
-  } // Close the h1 selector here
+  } 
 
   p {
     font-size: 16px;
@@ -112,5 +112,32 @@
     &:hover {
       color: #e0b31f;
     }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .page {
+      position: initial;
+  
+  }
+
+  .container {
+      position: initial;
+      height: auto;
+      min-height: auto;
+
+      &.about-page,
+      &.contact-page,
+      &.project-page {
+
+        .text-zone {
+          position: initial;
+          transform: none;
+          width: 100%;
+          display: block;
+          padding: 20px;
+          box-sizing: border-box;
+        }
+      }
   }
 }
