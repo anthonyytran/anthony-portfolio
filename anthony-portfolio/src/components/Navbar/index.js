@@ -30,7 +30,7 @@ const [showNav, setShowNav] = useState(false);
       <FontAwesomeIcon
         onClick={() => setShowNav(false)}
         icon={faClose}
-        color="#ffd700"
+        color="#5065A8;"
         size="3x"
         className='close-icon'
        />
@@ -47,7 +47,7 @@ const [showNav, setShowNav] = useState(false);
       </li>
     </ul>
     <FontAwesomeIcon
-      onclick={() => setShowNav(true)}
+      onClick={() => setShowNav(true)}
       icon={faBars}
       color="ffd700"
       size="3x"
