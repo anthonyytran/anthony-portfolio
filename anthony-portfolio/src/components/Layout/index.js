@@ -8,9 +8,7 @@ const Layout = () => {
       <Navbar />
       <div className='page'>
         <span className='tags top-tags'>&lt;body&gt;</span>
-
         <Outlet />
-
         <span className='tags bottom-tags'>
           &lt;/body&gt;
           <br />

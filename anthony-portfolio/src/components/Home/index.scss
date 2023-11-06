@@ -1,5 +1,4 @@
 .home-page {
-
     .text-zone {
         position: absolute;
         left: 10%;
@@ -21,7 +20,8 @@
             color: #E0B31F;
             font-size: 18px;
             position: absolute;
-            margin-top: -40px;
+            margin-top: -10px;
+            margin-left: -10px;
             left: 15px;
             opacity: 0.6;
         }
@@ -32,8 +32,7 @@
             color: #E0B31F;
             font-size: 18px;
             position: absolute;
-            margin-top: 20px;
-            margin-left: 20px;
+            margin-top: -5px;
             animation: fadeIn 1s 1.7s backwards;
             opacity: 0.6;
         }
