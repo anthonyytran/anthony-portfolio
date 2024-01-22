@@ -3,15 +3,20 @@
         {
             "cover": "projects/projects1/weather-app.png",
             "title": "Weather App",
-            "description": "JavaScript, React, APIs",
+            "description": "Search for any city and get a weekly forecast",
             "url": "https://anthonyytran.github.io/anthony-weather-app/"
         },
         {
             "cover": "projects/projects2/chat.png",
             "title": "React Chat",
-            "description": "HTML, CSS, JavaScript, React",
+            "description": "Create rooms and chat with other users.",
             "url": "https://github.com/anthonyytran/react-chat-2"
+        },
+        {
+            "cover": "projects/projects3/shinobi.png",
+            "title": "Labyrinth of the Shinobi",
+            "description": "A 2D dungeon exploring game built with Python",
+            "url": "https://github.com/anthonyytran/shinobi-game"
         }
     ]
-
 }
