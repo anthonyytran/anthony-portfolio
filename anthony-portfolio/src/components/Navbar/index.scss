@@ -84,6 +84,10 @@ nav a.projects-link::after {
   content: 'PROJECTS';
 }
 
+nav a.experience-link::after {
+  content: 'EXPERIENCE';
+}
+
 nav a.active svg {
   color: #5065A8;
 }

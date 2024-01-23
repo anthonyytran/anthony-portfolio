@@ -1,7 +1,7 @@
 import './index.scss';
 import { Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faInfoCircle, faEnvelope, faSuitcase, faBars, faClose } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faInfoCircle, faEnvelope, faSuitcase, faBars, faClose, faBuilding } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 import AnthonyLogo from '../../assets/images/Anthony-logos_transparent.png';
 import { useState } from 'react';
@@ -26,6 +26,11 @@ const Navbar = () => {
         <NavLink exact={true}
           onClick={() => setShowNav(false)} activeClassName="active" className="projects-link" to="/projects">
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+        </NavLink>
+        <NavLink exact={true} 
+          onClick={() => setShowNav(false)}
+          activeClassName="active" className="experience-link" to="/experience">
+          <FontAwesomeIcon icon={faBuilding} color="#4d4d4e" />
         </NavLink>
         <NavLink exact={true} 
           onClick={() => setShowNav(false)}
