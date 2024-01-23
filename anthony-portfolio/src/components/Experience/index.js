@@ -15,7 +15,7 @@ const Experience = () => {
 
     return (
         <div>
-          <div className="container projects-page">
+          <div className="container experience-page">
             <h1 className="page-title">
               <AnimatedLetters
                 letterClass={letterClass}
@@ -29,4 +29,6 @@ const Experience = () => {
         </div>
       )
     }
+
+
 export default Experience;

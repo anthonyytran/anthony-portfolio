@@ -40,7 +40,8 @@
 
 .about-page,
 .contact-page,
-.projects-page {
+.projects-page,
+.experience-page {
   h1 {
     font-size: 60px;
     color: white;
@@ -128,7 +129,8 @@
 
       &.about-page,
       &.contact-page,
-      &.project-page {
+      &.project-page,
+      &.experience-page {
 
         .text-zone {
           position: initial;
