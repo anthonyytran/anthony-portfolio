@@ -26,19 +26,13 @@ const About = () => {
                             className={letterClass}
                         />
                     </h1>
-                    <p> Hello and welcome to my portfolio! My name is Anthony Tran, a passionate 
-                        and driven Software Engineer with an undisputed love for technology and 
-                        coding. Born and raised in Melbourne, Australia, I have been captivated 
-                        by technology and programming since a very young age with my first programming
-                        language being Scratch. Over the years, my love for technology has only grew
-                        and I'm looking to pursue a career within the software development field.
+                    <p> Greetings and thank you for visiting my portfolio! I'm Anthony Tran, a Software 
+                        Engineer fueled by an unwavering passion for technology and coding. Born and raised in
+                        Melbourne, Australia, I completed my Bachelor of Information Technology at RMIT University. 
+                        Beyond the realm of coding, I find joy in indulging my interests – be it immersing myself in video games, cheering for my favorite sports 
+                        teams, or exploring the world of music.
                     </p>
-                    <p> Currently pursuing my Bachelor of Information Technology at RMIT University,
-                        I am dedicated to honing my software development skills in the hopes of 
-                        becoming a fully fledged Software Engineer! 
-                    </p>
-                    <p> I have built this website as a way to demonstrate my coding skills and to show 
-                        off personal projects that I have built over my career. 
+                    <p> I have built this website to showcase personal projects that I have built over my career. Thanks for reading! 
                     </p>
                 </div>
 
