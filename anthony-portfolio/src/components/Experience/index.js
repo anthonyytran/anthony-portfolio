@@ -23,8 +23,25 @@ const Experience = () => {
             className={letterClass}
           />
         </h1>
+        <div className="experience-content">
+          <h2 className="company-title">
+            Muse Scene Lab - Jul 2023 - Nov 2023
+          </h2>
+          <h3 className="position-title">Front-end Developer Intern</h3>
+          <div className="experience-description">
+            <p> test</p>
+          </div>
+        </div>
+        <div className="experience-content">
+          <h2 className="company-title">
+            Inferno Software and Data - Nov 2022 - Feb 2023
+          </h2>
+          <h3 className="position-title">Software Engineer Intern</h3>
+          <div className="experience-description">
+            <p> test</p>
+          </div>
+        </div>
       </div>
-      <div className="experience-content">this is the experience page</div>
       <Loader type="pacman" />
     </div>
   )
