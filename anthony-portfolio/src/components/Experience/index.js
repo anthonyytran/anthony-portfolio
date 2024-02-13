@@ -2,8 +2,6 @@ import AnimatedLetters from '../AnimatedLetters'
 import Loader from 'react-loaders'
 import './index.scss'
 import { useEffect, useState } from 'react'
-import museLogo from '../../assets/images/muse.png'
-import infernoLogo from '../../assets/images/inferno.png'
 
 const Experience = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -31,7 +29,7 @@ const Experience = () => {
           <h3 className="position-title">Front-End Developer Intern</h3>
           <h3 className="position-date">Jul 2023 - Nov 2023</h3>
           <div className="company-logo">
-            <img src={museLogo} alt="muse-logo" />
+            <img src="projects/companies/muse.png" alt="Company" />
           </div>
           <div className="experience-description">
             <p>
@@ -53,7 +51,7 @@ const Experience = () => {
           <h3 className="position-title">Software Developer Intern</h3>
           <h3 className="position-date">Nov 2022 - Feb 2023</h3>
           <div className="company-logo">
-            <img src={infernoLogo} alt="inferno-logo" />
+            <img src="projects/companies/inferno.png" alt="Company" />
           </div>
           <div className="experience-description">
             <p>
