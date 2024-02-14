@@ -1,6 +1,6 @@
 # anthony-portfolio
 Welcome to my Portfolio website
 
-**WORK IN PROGRESS**
+Hosted at:
 
-https://anthonyytran.github.io/anthony-portfolio/
+atrxnn.com
