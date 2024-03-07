@@ -6,30 +6,10 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Projects from './components/Projects'
 import Experience from './components/Experience'
-import { Helmet } from 'react-helmet'
-
-const GoogleAnalytics = () => (
-  <Helmet>
-    {/* Global site tag (gtag.js) - Google Analytics */}
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-6S2RHVVWYY"
-    ></script>
-    <script>
-      {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-6S2RHVVWYY');
-      `}
-    </script>
-  </Helmet>
-)
 
 function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <GoogleAnalytics />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
