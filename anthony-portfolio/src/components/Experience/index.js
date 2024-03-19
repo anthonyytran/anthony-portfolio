@@ -34,7 +34,7 @@ const Experience = () => {
           <div className="experience-description">
             <p>
               • Developed the music analysis platform with React for the
-              front-End and AWS DynamoDB for the back-End.
+              front-End and AWS DynamoDB for the Back-End.
               <br></br>• Implemented React-Vis library to provide graphical
               representations of various music performance related metrics such
               as tempo data and BPM.
@@ -57,14 +57,16 @@ const Experience = () => {
             <p>
               • Rewrote legacy software using modern technologies and redesigned
               APIs for modularity, maintainability and reusability.
-              <br></br>• • Collaborated with cross-functional teams to design,
+              <br></br>• Collaborated with cross-functional teams to design,
               implement, and optimize robust software applications, reducing
               database query response times by 20%.
               <br></br>• Proficiently managed software business operations by
               excelling in client communication, sprint planning, and task
               prioritisation.
-              <br></br>• Languages and technologies used: JavaScript, React,
-              MySQL, REST API
+              <br></br>• Enhanced website performance by implementing caching
+              strategies and integrating a content delivery network, resulting
+              in notable reductions in page load times, as measured through web
+              performance tools such as Google Lighthouse.
             </p>
           </div>
         </div>
