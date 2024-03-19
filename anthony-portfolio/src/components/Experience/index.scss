@@ -15,10 +15,11 @@
 
 .experience-content {
   background-color: #a8a4a4;
-  min-height: 200px;
+  max-height: 100%;
   border-radius: 10px;
-  overflow: hidden; 
+  justify-content: center;
   margin-top: 20px;
+  max-width: 100%;
 
   h2.company-title {
     margin-top: 20px;
@@ -74,4 +75,11 @@
         height: auto;
       }
     }
+  }
+
+  @media screen and (max-height: 800px){
+    .bottom-tags {
+      display: none;
+    }
+    
   }
