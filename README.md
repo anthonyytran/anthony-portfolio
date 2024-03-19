@@ -1,5 +1,5 @@
 # anthony-portfolio
-Welcome to my Portfolio website
+Welcome to my Portfolio website. Built using React. 
 
 Hosted at:
 
