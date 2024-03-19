@@ -39,7 +39,7 @@ const Experience = () => {
               representations of various music performance related metrics such
               as tempo data and BPM.
               <br></br>• Authored CI/CD pipelines to build, test and deploy
-              software using GitHub Actions.
+              software using GitHub Actions, reducing deployment time by 30%
               <br></br>• Languages and technologies used: JavaScript, React,
               REST API, JSON, AWS.
             </p>
@@ -57,11 +57,12 @@ const Experience = () => {
             <p>
               • Rewrote legacy software using modern technologies and redesigned
               APIs for modularity, maintainability and reusability.
-              <br></br>• Collaborated with cross-functional teams to design,
-              implement, and optimize robust software applications.
+              <br></br>• • Collaborated with cross-functional teams to design,
+              implement, and optimize robust software applications, reducing
+              database query response times by 20%.
               <br></br>• Proficiently managed software business operations by
-              excelling in client communication, sprint planning, PRD reviews,
-              and prioritization.
+              excelling in client communication, sprint planning, and task
+              prioritisation.
               <br></br>• Languages and technologies used: JavaScript, React,
               MySQL, REST API
             </p>
