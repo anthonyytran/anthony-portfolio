@@ -5,45 +5,48 @@
     position: initial;
     height: 100%;
 
-
     h1.page-title {
         margin-left: 100px;
         margin-top: 100px;
-        
     }
 }
 
 .experience-content {
-  background-color: #a8a4a4;
-  width: 100%;
+  background-color: #725555;
+  width: 85%;
   border-radius: 10px;
   justify-content: center;
   margin-top: 20px;
   overflow: auto;
 
   h2.company-title {
-    margin-top: 20px;
     margin-left: 20px;
     font-size: 24px;
+    color: #9add1f;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   }
 
   h3.position-title {
     margin-left: 20px;
     margin-top: -25px;
     font-size: 20px;
+    color: #cac3c3;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   }
 
   h3.position-date {
     margin-left: 20px;
     margin-top: -25px;
     font-size: 18px;
+    color: #cac3c3;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   }
 
   .experience-description {
     margin-left: 20px;
     font-size: 16px;
-    margin-top: -15px;
-    overflow: auto;
+    margin-top: -30px;
+    overflow: hidden;
   }
 
   .company-logo img {
@@ -61,7 +64,7 @@
     }
 
     h2.company-title {
-      font-size: 22px;
+      font-size: 20px;
     }
 
     h3.position-title {
@@ -70,11 +73,12 @@
 
     h3.position-date {
       font-size: 18px;
-      padding-top: 10px;
     }
 
     .experience-description {
-      font-size: 14px;
+      p {
+        font-size: 14px;
+      }
     }
 
     .company-logo img {
@@ -104,13 +108,19 @@
         max-width: 125px;
         margin-left: 20px;
         height: auto;
+        overflow: auto;
+      }
+      .experience-description {
+        margin-top: 5px;
       }
     }
   }
 
-  @media screen and (max-height: 800px){
+  @media screen and (max-height: 850px){
     .bottom-tags {
       display: none;
     }
     
   }
+
+  
