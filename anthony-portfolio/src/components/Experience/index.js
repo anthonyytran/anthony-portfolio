@@ -2,6 +2,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import Loader from 'react-loaders'
 import './index.scss'
 import { useEffect, useState } from 'react'
+import LeavesComponent from '../Leaves'
 
 const Experience = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -23,6 +24,7 @@ const Experience = () => {
             className={letterClass}
           />
         </h1>
+        <LeavesComponent />
 
         <div className="experience-content">
           <h2 className="company-title">Muse Scene Lab</h2>
@@ -34,7 +36,7 @@ const Experience = () => {
           <div className="experience-description">
             <p>
               • Developed the music analysis platform with React for the
-              front-End and AWS DynamoDB for the Back-End.
+              Front-End and AWS DynamoDB for the Back-End.
               <br></br>• Implemented React-Vis library to provide graphical
               representations of various music performance related metrics such
               as tempo data and BPM.
